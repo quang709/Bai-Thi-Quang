@@ -5,65 +5,19 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Include="wwwroot\img\add.jpg" />
-    <None Include="wwwroot\img\author.jpg" />
-    <None Include="wwwroot\img\blog-big\1.jpg" />
-    <None Include="wwwroot\img\blog-big\2.jpg" />
-    <None Include="wwwroot\img\blog-big\3.jpg" />
-    <None Include="wwwroot\img\blog-widget\1.jpg" />
-    <None Include="wwwroot\img\blog-widget\2.jpg" />
-    <None Include="wwwroot\img\blog-widget\3.jpg" />
-    <None Include="wwwroot\img\blog-widget\4.jpg" />
-    <None Include="wwwroot\img\blog\1.jpg" />
-    <None Include="wwwroot\img\blog\2.jpg" />
-    <None Include="wwwroot\img\blog\3.jpg" />
-    <None Include="wwwroot\img\comment-widget\1.jpg" />
-    <None Include="wwwroot\img\comment-widget\2.jpg" />
-    <None Include="wwwroot\img\comment-widget\3.jpg" />
-    <None Include="wwwroot\img\comment-widget\4.jpg" />
-    <None Include="wwwroot\img\favicon.ico" />
-    <None Include="wwwroot\img\featured-bg.jpg" />
-    <None Include="wwwroot\img\footer-left-pic.png" />
-    <None Include="wwwroot\img\footer-right-pic.png" />
-    <None Include="wwwroot\img\games\1.jpg" />
-    <None Include="wwwroot\img\games\2.jpg" />
-    <None Include="wwwroot\img\games\3.jpg" />
-    <None Include="wwwroot\img\games\4.jpg" />
-    <None Include="wwwroot\img\games\5.jpg" />
-    <None Include="wwwroot\img\games\6.jpg" />
-    <None Include="wwwroot\img\games\7.jpg" />
-    <None Include="wwwroot\img\games\8.jpg" />
-    <None Include="wwwroot\img\games\9.jpg" />
-    <None Include="wwwroot\img\games\big.jpg" />
-    <None Include="wwwroot\img\icons\arrow-down-color.png" />
-    <None Include="wwwroot\img\icons\arrow-down.png" />
-    <None Include="wwwroot\img\icons\double-arrow.png" />
-    <None Include="wwwroot\img\icons\location.png" />
-    <None Include="wwwroot\img\icons\mail.png" />
-    <None Include="wwwroot\img\icons\phone.png" />
-    <None Include="wwwroot\img\icons\solid-right-arrow.png" />
-    <None Include="wwwroot\img\logo.png" />
-    <None Include="wwwroot\img\page-top-bg\1.jpg" />
-    <None Include="wwwroot\img\page-top-bg\2.jpg" />
-    <None Include="wwwroot\img\page-top-bg\3.jpg" />
-    <None Include="wwwroot\img\page-top-bg\4.jpg" />
-    <None Include="wwwroot\img\promo-bg.jpg" />
-    <None Include="wwwroot\img\review\1.jpg" />
-    <None Include="wwwroot\img\review\2.jpg" />
-    <None Include="wwwroot\img\review\3.jpg" />
-    <None Include="wwwroot\img\review\4.jpg" />
-    <None Include="wwwroot\img\review\5.jpg" />
-    <None Include="wwwroot\img\slider-bg-1.jpg" />
-    <None Include="wwwroot\img\slider-bg-2.jpg" />
-  </ItemGroup>
-
-  <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="3.1.9" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.9" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.9">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Views\Contact\" />
+    <Folder Include="Views\News\" />
+    <Folder Include="Views\Reviews\" />
   </ItemGroup>
 
 </Project>

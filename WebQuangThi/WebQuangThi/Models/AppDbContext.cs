@@ -16,6 +16,9 @@ namespace WebQuangThi.Models
         public DbSet<Category> Categories { get; set; }
         public DbSet<Posts> Posts { get; set; }
 
+      
+
+
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -30,8 +33,8 @@ namespace WebQuangThi.Models
                 Id = 1,
                 Title = "The best online game is out now!",
                 Content = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida....",
-
-                ImageUrl = "./img/blog/1.jpg",
+                
+                ImageUrl = "https://i.imgur.com/F3p0fO3.jpg",
                 CategoryId = 1
             });
             modelBuilder.Entity<Posts>().HasData(new Posts
@@ -39,8 +42,8 @@ namespace WebQuangThi.Models
                 Id = 2,
                 Title = "Top 5 best games in november",
                 Content = "Ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum labore suspendisse ultrices gravida....",
-
-                ImageUrl = "./img/blog/2.jpg",
+               
+                ImageUrl = "https://i.imgur.com/XSg6Yud.jpeg",
                 CategoryId = 2
             });
 
@@ -52,7 +55,7 @@ namespace WebQuangThi.Models
                 Title = "The best online game is out now!",
                 Content = "Sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida ncididunt ut labore ....",
 
-                ImageUrl = "./img/blog/3.jpg",
+                ImageUrl = "https://i.imgur.com/lmVvaM5.jpeg",
                 CategoryId = 3
             });
 
