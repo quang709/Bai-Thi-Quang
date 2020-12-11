@@ -2,7 +2,7 @@
 
 namespace WebQuangThi.Migrations
 {
-    public partial class seeder_table_Category : Migration
+    public partial class Seeder_table_Posts : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {

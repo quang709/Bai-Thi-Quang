@@ -61,17 +61,17 @@ namespace WebQuangThi.Migrations
             migrationBuilder.InsertData(
                 table: "Posts",
                 columns: new[] { "Id", "CategoryId", "Content", "DateTime", "ImageUrl", "Title" },
-                values: new object[] { 1, 1, "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida....", new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), "./img/blog/1.jpg", "The best online game is out now!" });
+                values: new object[] { 1, 1, "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida....", new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), "https://i.imgur.com/F3p0fO3.jpg", "The best online game is out now!" });
 
             migrationBuilder.InsertData(
                 table: "Posts",
                 columns: new[] { "Id", "CategoryId", "Content", "DateTime", "ImageUrl", "Title" },
-                values: new object[] { 2, 2, "Ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum labore suspendisse ultrices gravida....", new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), "./img/blog/2.jpg", "Top 5 best games in november" });
+                values: new object[] { 2, 2, "Ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum labore suspendisse ultrices gravida....", new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), "https://i.imgur.com/XSg6Yud.jpeg", "Top 5 best games in november" });
 
             migrationBuilder.InsertData(
                 table: "Posts",
                 columns: new[] { "Id", "CategoryId", "Content", "DateTime", "ImageUrl", "Title" },
-                values: new object[] { 3, 3, "Sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida ncididunt ut labore ....", new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), "./img/blog/3.jpg", "The best online game is out now!" });
+                values: new object[] { 3, 3, "Sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida ncididunt ut labore ....", new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), "https://i.imgur.com/lmVvaM5.jpeg", "The best online game is out now!" });
 
             migrationBuilder.CreateIndex(
                 name: "IX_Posts_CategoryId",

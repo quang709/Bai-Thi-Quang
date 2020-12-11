@@ -10,8 +10,8 @@ using WebQuangThi.Models;
 namespace WebQuangThi.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20201110091538_seeder_table_Category")]
-    partial class seeder_table_Category
+    [Migration("20201210072845_quang")]
+    partial class quang
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -89,7 +89,7 @@ namespace WebQuangThi.Migrations
                             CategoryId = 1,
                             Content = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida....",
                             DateTime = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            ImageUrl = "./img/blog/1.jpg",
+                            ImageUrl = "https://i.imgur.com/F3p0fO3.jpg",
                             Title = "The best online game is out now!"
                         },
                         new
@@ -98,7 +98,7 @@ namespace WebQuangThi.Migrations
                             CategoryId = 2,
                             Content = "Ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum labore suspendisse ultrices gravida....",
                             DateTime = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            ImageUrl = "./img/blog/2.jpg",
+                            ImageUrl = "https://i.imgur.com/XSg6Yud.jpeg",
                             Title = "Top 5 best games in november"
                         },
                         new
@@ -107,7 +107,7 @@ namespace WebQuangThi.Migrations
                             CategoryId = 3,
                             Content = "Sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida ncididunt ut labore ....",
                             DateTime = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            ImageUrl = "./img/blog/3.jpg",
+                            ImageUrl = "https://i.imgur.com/lmVvaM5.jpeg",
                             Title = "The best online game is out now!"
                         });
                 });
