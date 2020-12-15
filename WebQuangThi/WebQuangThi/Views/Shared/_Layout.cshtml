@@ -50,7 +50,7 @@
             </div>
             <div class="header-bar-warp d-flex">
                 <!-- site logo -->
-                <a  asp-for="Home" asp-action="Index" class="site-logo">
+                <a asp-for="Home" asp-action="Index" class="site-logo">
                     <img src="./img/logo.png" alt="">
                 </a>
                 <nav class="top-nav-area w-100">
@@ -59,9 +59,9 @@
                     </div>
                     <!-- Menu -->
                     <ul class="main-menu primary-menu">
-                        <li><a  asp-for="Home" asp-action="Index">Home</a></li>
+                        <li><a asp-for="Home" asp-action="Index">Home</a></li>
                         <li>
-                            <a  asp-for="Games" asp-action="Index">Games</a>
+                            <a asp-for="Games" asp-action="Index">Games</a>
                             <ul class="sub-menu">
                                 <li><a href="game-single.html">Game Singel</a></li>
                             </ul>
@@ -96,7 +96,26 @@
     </section>
     <!-- Hero section end-->
     <!-- Intro section -->
-  
+    <section class="intro-section">
+        @model HomeIndexVM
+        <div class="container">
+            <div class="row">
+                @foreach (var item in Model.Posts)
+                {
+                    <div class="col-md-4">
+                        <div class="intro-text-box text-box text-white">
+
+                            <div class="top-meta">11.11.18  /  in <a asp-route-id="@item.Category.Id">@item.Category.CategoryName</a></div>
+                          <h3>  <a href="" data-filter="@item.Title"> @item.Title</a></h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida....</p>
+                            <a href="#" class="read-more">Read More  <img src="img/icons/double-arrow.png" alt="#" /></a>
+                        </div>
+                    </div>
+                }
+                
+            </div>
+        </div>
+    </section>
     <!-- Intro section end -->
     <!-- Blog section -->
     <section class="blog-section spad">
@@ -150,7 +169,7 @@
                 <img src="img/footer-right-pic.png" alt="">
             </div>
             <a href="#" class="footer-logo">
-                <img src="./img/logo.png" alt="">
+                <img src="img/logo.png" alt="">
             </a>
             <ul class="main-menu footer-menu">
                 <li><a href="">Home</a></li>
